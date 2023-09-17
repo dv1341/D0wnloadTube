@@ -42,6 +42,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Panel = new Guna.UI2.WinForms.Guna2Panel();
+            label12 = new Label();
+            label11 = new Label();
             label10 = new Label();
             DownlaodBtn = new Guna.UI2.WinForms.Guna2GradientButton();
             Browsebtn = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -62,8 +64,6 @@
             txtUrl = new MaskedTextBox();
             label1 = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
-            label11 = new Label();
-            label12 = new Label();
             Panel.SuspendLayout();
             SuspendLayout();
             // 
@@ -96,14 +96,34 @@
             Panel.Location = new Point(0, 0);
             Panel.Name = "Panel";
             Panel.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            Panel.Size = new Size(369, 277);
+            Panel.Size = new Size(369, 267);
             Panel.TabIndex = 1;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.ForeColor = Color.White;
+            label12.Location = new Point(2, 248);
+            label12.Name = "label12";
+            label12.Size = new Size(283, 15);
+            label12.TabIndex = 61;
+            label12.Text = "PLEASE SUBMIT PULL REQUEST TO MAKE APP BETER";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.ForeColor = Color.White;
+            label11.Location = new Point(2, 233);
+            label11.Name = "label11";
+            label11.Size = new Size(266, 15);
+            label11.TabIndex = 60;
+            label11.Text = "THIS APP USES GUNAUI AND YOUTUBE EXPLODE";
             // 
             // label10
             // 
             label10.AutoSize = true;
             label10.ForeColor = Color.White;
-            label10.Location = new Point(0, 197);
+            label10.Location = new Point(0, 188);
             label10.Name = "label10";
             label10.Size = new Size(252, 15);
             label10.TabIndex = 59;
@@ -122,10 +142,10 @@
             DownlaodBtn.FillColor2 = Color.FromArgb(64, 64, 64);
             DownlaodBtn.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             DownlaodBtn.ForeColor = Color.White;
-            DownlaodBtn.Location = new Point(0, 106);
+            DownlaodBtn.Location = new Point(0, 110);
             DownlaodBtn.Name = "DownlaodBtn";
             DownlaodBtn.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            DownlaodBtn.Size = new Size(369, 25);
+            DownlaodBtn.Size = new Size(369, 20);
             DownlaodBtn.TabIndex = 47;
             DownlaodBtn.Text = "Download Videos";
             DownlaodBtn.Click += btnDownload_Click;
@@ -147,7 +167,7 @@
             Browsebtn.Location = new Point(0, 167);
             Browsebtn.Name = "Browsebtn";
             Browsebtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            Browsebtn.Size = new Size(369, 27);
+            Browsebtn.Size = new Size(369, 20);
             Browsebtn.TabIndex = 46;
             Browsebtn.Text = "Browse Download Location";
             Browsebtn.Click += browseBtn_Click;
@@ -156,7 +176,7 @@
             // 
             label9.AutoSize = true;
             label9.ForeColor = Color.White;
-            label9.Location = new Point(0, 212);
+            label9.Location = new Point(0, 203);
             label9.Name = "label9";
             label9.Size = new Size(227, 30);
             label9.TabIndex = 58;
@@ -338,32 +358,12 @@
             timer1.Interval = 1;
             timer1.Tick += timer1_Tick;
             // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.ForeColor = Color.White;
-            label11.Location = new Point(2, 242);
-            label11.Name = "label11";
-            label11.Size = new Size(132, 15);
-            label11.TabIndex = 60;
-            label11.Text = "THIS APP USES GUNAUI";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.ForeColor = Color.White;
-            label12.Location = new Point(2, 257);
-            label12.Name = "label12";
-            label12.Size = new Size(283, 15);
-            label12.TabIndex = 61;
-            label12.Text = "PLEASE SUBMIT PULL REQUEST TO MAKE APP BETER";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(369, 277);
+            ClientSize = new Size(369, 267);
             Controls.Add(Panel);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
@@ -371,6 +371,7 @@
             Name = "Form1";
             Opacity = 0.9D;
             ShowIcon = false;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "D0wnloadTube";
             Panel.ResumeLayout(false);
             Panel.PerformLayout();

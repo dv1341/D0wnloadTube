@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Damien V\\Desktop\\Apps\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube.csproj": {}
+    "C:\\Users\\Damien V\\Documents\\GitHub\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Damien V\\Desktop\\Apps\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube.csproj": {
+    "C:\\Users\\Damien V\\Documents\\GitHub\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Damien V\\Desktop\\Apps\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube.csproj",
+        "projectUniqueName": "C:\\Users\\Damien V\\Documents\\GitHub\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube.csproj",
         "projectName": "D0wnloadTube",
-        "projectPath": "C:\\Users\\Damien V\\Desktop\\Apps\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube.csproj",
+        "projectPath": "C:\\Users\\Damien V\\Documents\\GitHub\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube.csproj",
         "packagesPath": "C:\\Users\\Damien V\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Damien V\\Desktop\\Apps\\D0wnloadTube\\D0wnloadTube\\obj\\",
+        "outputPath": "C:\\Users\\Damien V\\Documents\\GitHub\\D0wnloadTube\\D0wnloadTube\\D0wnloadTube\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
