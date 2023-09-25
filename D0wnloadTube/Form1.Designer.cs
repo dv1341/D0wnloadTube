@@ -96,7 +96,7 @@
             Panel.Location = new Point(0, 0);
             Panel.Name = "Panel";
             Panel.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            Panel.Size = new Size(369, 267);
+            Panel.Size = new Size(508, 411);
             Panel.TabIndex = 1;
             // 
             // label12
@@ -270,7 +270,7 @@
             pbDownload.Location = new Point(0, 0);
             pbDownload.Name = "pbDownload";
             pbDownload.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            pbDownload.Size = new Size(369, 10);
+            pbDownload.Size = new Size(508, 10);
             pbDownload.TabIndex = 45;
             pbDownload.Text = "guna2ProgressBar1";
             pbDownload.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
@@ -308,7 +308,7 @@
             // 
             // txtOutputDirectory
             // 
-            txtOutputDirectory.Location = new Point(0, 148);
+            txtOutputDirectory.Location = new Point(0, 144);
             txtOutputDirectory.Name = "txtOutputDirectory";
             txtOutputDirectory.Size = new Size(369, 23);
             txtOutputDirectory.TabIndex = 39;
@@ -363,7 +363,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(369, 267);
+            ClientSize = new Size(508, 411);
             Controls.Add(Panel);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
